@@ -1,16 +1,39 @@
-# React + Vite
+# Job Listing Cards UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive Job Listing Cards UI built using React. Each card displays job information, including company name, job role, location, and salary.
 
-Currently, two official plugins are available:
+This project was created while learning React fundamentals and understanding how data flows between components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Displays job listings in a card-based layout
+- Shows company names, job roles, locations, and salaries
+- Uses reusable React components
+- Practices passing data through props and understanding prop drilling
 
-## React Compiler
+## Technologies Used
+- React.js
+- JavaScript
+- JSX
+- CSS
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+1. Clone this repository.
+2. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Learning Outcomes
+
+- Understanding React components and props
+- Learning prop drilling and component-to-component data flow
+- Building and styling reusable UI elements
