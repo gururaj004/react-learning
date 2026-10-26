@@ -1,0 +1,92 @@
+* {
+  margin :0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+html,
+
+body {
+height:100%;
+width:100%;
+}
+
+.parent {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(4, 12, 9);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap:30px;  
+  flex-wrap: wrap;
+ 
+}
+.child {
+ border: 2px solid rgb(210, 214, 216);
+ padding: 30px;
+ width: 250px;
+ height: 200px;
+ background-color: rgb(251, 251, 251);
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+
+}
+.top {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding-bottom: 10px;  
+}
+
+.top button {
+  border: 1px solid white;
+ background-color: rgb(238, 235, 235);
+  color: black;
+  cursor: pointer;
+}
+
+
+.top img {
+  height:30px;
+  width:30px;
+  border-radius: 20px;
+  border: 1px solid rgb(240, 224, 224);
+}
+
+.centre {
+  padding: 5px;
+  padding-bottom: 10px;
+  
+}
+h3 {
+  color: rgb(10, 7, 7);
+ 
+}
+h4 {
+  color: rgb(10, 7, 7);
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  border-top: 1px solid rgb(152, 124, 124);
+ 
+  
+}
+
+.bottom h5 {
+  color: rgb(9, 12, 17);
+}
+.bottom button {
+ cursor: pointer;
+ background-color: rgb(3, 2, 2);
+ color: rgb(255, 255, 255);
+ padding: 10px;
+ border: 2px solid white;
+ border-radius: 10px;
+}
